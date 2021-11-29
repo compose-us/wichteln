@@ -1,4 +1,4 @@
-import type { Participant } from './stores/participants-store';
+import type { Participant } from '../stores/participants-store';
 
 export function formSerializer({ elements }) {
 	let obj = {};

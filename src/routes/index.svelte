@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { Button, Jumbotron } from 'sveltestrap';
+	import { participants } from '$lib/stores/participants-store';
+
+	$participants = [];
 </script>
 
 <Jumbotron>

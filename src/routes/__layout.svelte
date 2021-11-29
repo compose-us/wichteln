@@ -1,13 +1,16 @@
 <script>
-	import 'bootstrap/dist/css/bootstrap.min.css';
-	import { Column, Container, Row } from 'sveltestrap';
+	import Footer from '$lib/components/footer.svelte';
+	import { Styles } from 'sveltestrap';
+	import { Col, Container, Row } from 'sveltestrap';
 </script>
 
+<Styles />
 <Container>
 	<Row>
-		<Column>
+		<Col>
 			<br />
 			<slot />
-		</Column>
+		</Col>
 	</Row>
 </Container>
+<Footer />
