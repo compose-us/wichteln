@@ -12,6 +12,5 @@
 </script>
 
 {#if reveal}
-	You're assigned to: <br />
 	<h1>{decodedSecret}</h1>
 {/if}
