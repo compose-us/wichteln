@@ -45,4 +45,10 @@
 		max-width: 500px;
 		float: right;
 	}
+
+	@media only screen and (max-width: 600px) {
+		img {
+			max-width: 250px;
+		}
+	}
 </style>
