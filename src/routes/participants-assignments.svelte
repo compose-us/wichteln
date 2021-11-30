@@ -43,7 +43,8 @@
 	const copyLink = (participant: Participant, assignment: Participant) => {
 		const assignee = `${participant.firstName} ${participant.lastName}`;
 		const secret = btoa(`${assignment.firstName} ${assignment.lastName}`);
-		navigator.clipboard.writeText(`${document.location.origin}/${assignee}/${secret}`);
+		const params = new URLSearchParams({ assignee, secret }).toString();
+		navigator.clipboard.writeText(`${document.location.origin}/secret/?${params}`);
 		showAlert = true;
 		setTimeout(() => {
 			showAlert = false;
