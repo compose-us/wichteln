@@ -17,7 +17,7 @@
 
 	let pageReady = false;
 	let showAlert = false;
-	let shuffledList = [];
+	let shuffledList: Participant[] = [];
 
 	onMount(() => {
 		if ($participants.length === 0) {
@@ -40,12 +40,14 @@
 		validateList();
 	};
 
-	const copyLink = (participant: Participant, assignment: Participant) => {
+	const copyLink = (index: number, assignment: Participant) => {
+		const participant = $participants[index];
 		const assignee = `${participant.firstName} ${participant.lastName}`;
 		const secret = btoa(`${assignment.firstName} ${assignment.lastName}`);
 		const params = new URLSearchParams({ assignee, secret }).toString();
 		navigator.clipboard.writeText(`${document.location.origin}/secret/?${params}`);
 		showAlert = true;
+		$participants[index].copied = true;
 		setTimeout(() => {
 			showAlert = false;
 		}, 1000);
@@ -66,7 +68,8 @@
 							<ListGroupItem
 								action
 								href="#"
-								on:click={() => copyLink(participant, shuffledList[index])}
+								color={participant.copied ? 'success' : 'light'}
+								on:click={() => copyLink(index, shuffledList[index])}
 							>
 								{`${participant.firstName} ${participant.lastName}`}
 							</ListGroupItem>

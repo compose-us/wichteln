@@ -42,7 +42,7 @@
 	};
 
 	const loadDemoParticipants = () => {
-		$participants = [...demoParticipants];
+		$participants = [...demoParticipants.map((a) => ({ ...a }))];
 	};
 </script>
 
