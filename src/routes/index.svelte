@@ -48,7 +48,7 @@
 
 	@media only screen and (max-width: 600px) {
 		img {
-			max-width: 250px;
+			max-width: 180px;
 		}
 	}
 </style>
