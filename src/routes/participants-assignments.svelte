@@ -1,12 +1,22 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { Badge, Button, Card, CardBody, CardFooter, ListGroup, ListGroupItem } from 'sveltestrap';
+	import {
+		Alert,
+		Badge,
+		Button,
+		Card,
+		CardBody,
+		CardFooter,
+		ListGroup,
+		ListGroupItem
+	} from 'sveltestrap';
 	import { randomizeParticipants } from '$lib/util/shuffle-participants';
 	import { Participant, participants } from '$lib/stores/participants-store';
 	import { validateShuffle } from '$lib/util/validate-shuffle';
 	import CardLabel from '$lib/components/card-label.svelte';
 
 	let pageReady = false;
+	let showAlert = false;
 	let shuffledList = [];
 
 	onMount(() => {
@@ -34,6 +44,10 @@
 		const assignee = `${participant.firstName} ${participant.lastName}`;
 		const secret = btoa(`${assignment.firstName} ${assignment.lastName}`);
 		navigator.clipboard.writeText(`${document.location.origin}/${assignee}/${secret}`);
+		showAlert = true;
+		setTimeout(() => {
+			showAlert = false;
+		}, 1000);
 	};
 
 	validateList();
@@ -61,11 +75,14 @@
 			</div>
 		</CardBody>
 
-		<CardFooter>
-			<Button on:click={reshuffle} block>Reshuffle</Button>
-		</CardFooter>
+		<CardFooter />
 	</Card>
 {/if}
+<div class="alert">
+	<div class="alert-content">
+		<Alert isOpen={showAlert} fade={true}>Copied!</Alert>
+	</div>
+</div>
 
 <style>
 	.container {
@@ -76,7 +93,14 @@
 	.list {
 		flex-grow: 1;
 	}
-	.action {
-		border: thin solid red;
+	.alert {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	.alert-content {
+		width: 50%;
+		margin: 0 auto;
 	}
 </style>

@@ -52,7 +52,7 @@
 	<CardBody>
 		{#if $participants.length === 0}
 			<div class="loader">
-				<Button on:click={loadDemoParticipants}>Load Demo Participants</Button>
+				<Button color="success" on:click={loadDemoParticipants}>Load Demo Participants</Button>
 			</div>
 		{:else}
 			<ParticipantList list={$participants} editable={true} />
@@ -113,13 +113,14 @@
 						}}
 					/>
 				</Label>
-				<Button type="submit" disabled={submitDisabled}>Submit</Button>
+				<Button type="submit" color="success" disabled={submitDisabled}>Submit</Button>
 			</FormGroup>
 		</Form>
 	</CardBody>
 
 	<CardFooter>
 		<Button
+			color="success"
 			on:click={() => goto('/participants-assignments')}
 			block
 			disabled={$participants.length === 0}>Shuffle</Button

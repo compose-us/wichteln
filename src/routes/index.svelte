@@ -7,13 +7,30 @@
 
 <Jumbotron>
 	<h1 class="display-3">WICHTELN (Secret Santa)</h1>
-	<!-- <p class="lead">
-		This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to
-		featured content or information.
-	</p> -->
+
 	<hr class="my-2" />
-	<p>Get started by entering your participants names</p>
+	<div class="content">
+		<p>
+			<img src="/SantaClaus.svg" alt="Santa Claus" />Get started by entering your participants names
+			<br />
+			This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured
+			content or information.
+		</p>
+	</div>
 	<p class="lead">
-		<Button color="primary" href="/participants-form">Let's Begin</Button>
+		<Button block size="lg" color="success" href="/participants-form">Let's Begin</Button>
 	</p>
 </Jumbotron>
+
+<style>
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+	img {
+		margin-bottom: 24px;
+		text-overflow: clip;
+		max-width: 500px;
+		float: right;
+	}
+</style>

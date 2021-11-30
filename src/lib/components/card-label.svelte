@@ -8,7 +8,7 @@
 <CardHeader>
 	{#if backBtn}
 		<div class="back-btn">
-			<Button href="/">Home</Button>
+			<Button color="danger" href="/">Home</Button>
 		</div>
 	{/if}
 	<CardTitle>{label}</CardTitle>

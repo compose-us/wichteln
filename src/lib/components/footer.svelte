@@ -2,12 +2,12 @@
 	import { Col, Container, Row } from 'sveltestrap';
 </script>
 
-<Container class="fixed-bottom">
+<Container>
 	<Row>
 		<Col>
 			<div class="root">
-				2021 Enjoy!
-				<a href="https://compose.us">compose.us GmbH</a>
+				developed by{' '}
+				<a href="https://compose.us" rel="noreferrer noopener" target="_blank"> compose.us </a>
 			</div>
 		</Col>
 	</Row>
@@ -15,8 +15,11 @@
 
 <style>
 	.root {
-		padding: 15px 0;
-		display: flex;
-		justify-content: space-between;
+		background-color: white;
+		background: rgba(255, 255, 255, 0.8);
+		padding: 15px;
+		margin-top: 8px;
+		border-radius: 5px;
+		text-align: center;
 	}
 </style>

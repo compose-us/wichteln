@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { Collapse } from 'sveltestrap';
 
 	export let secret: string;
 	export let reveal = false;
@@ -11,6 +12,6 @@
 	});
 </script>
 
-{#if reveal}
+<Collapse isOpen={reveal}>
 	<h1>{decodedSecret}</h1>
-{/if}
+</Collapse>
