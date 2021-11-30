@@ -1,19 +1,15 @@
-<script context="module">
-	export async function load({ page }) {
-		return { props: { ...page.params } };
-	}
-</script>
-
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
 
 	import CardLabel from '$lib/components/card-label.svelte';
 	import SecretSanta from '$lib/components/secret-santa.svelte';
 
 	import { Button, ButtonGroup, Card, CardBody, CardFooter } from 'sveltestrap';
 
-	export let assignee: string;
-	export let secret: string;
+	const pageQuery = $page.query;
+	export let assignee: string = pageQuery.get('assignee');
+	export let secret: string = pageQuery.get('secret');
 	let reveal = false;
 </script>
 
