@@ -1,18 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import {
-		Button,
-		Card,
-		CardBody,
-		CardFooter,
-		CardHeader,
-		CardTitle,
-		ListGroup,
-		ListGroupItem
-	} from 'sveltestrap';
+	import { Button, Card, CardBody, CardFooter, ListGroup, ListGroupItem } from 'sveltestrap';
 	import { randomizeParticipants } from '$lib/util/shuffle-participants';
 	import { participants } from '$lib/stores/participants-store';
 	import { validateShuffle } from '$lib/util/validate-shuffle';
+	import CardLabel from '$lib/components/card-label.svelte';
 
 	let pageReady = false;
 	let shuffledList = [];
@@ -43,12 +35,7 @@
 
 {#if pageReady}
 	<Card>
-		<CardHeader>
-			<div class="back-btn">
-				<Button href="/">Home</Button>
-			</div>
-			<CardTitle>Participants Assignments</CardTitle>
-		</CardHeader>
+		<CardLabel label="Participants Assignments" backBtn={true} />
 
 		<CardBody>
 			<div class="container">
@@ -80,9 +67,6 @@
 {/if}
 
 <style>
-	.back-btn {
-		float: right;
-	}
 	.container {
 		display: flex;
 		gap: 0 50px;

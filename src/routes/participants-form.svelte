@@ -4,7 +4,6 @@
 		Card,
 		CardBody,
 		CardFooter,
-		CardHeader,
 		CardTitle,
 		Form,
 		FormGroup,
@@ -16,6 +15,7 @@
 	import { Participant, participants } from '$lib/stores/participants-store';
 	import { demoParticipants } from '$lib/demo-participants';
 	import { goto } from '$app/navigation';
+	import CardLabel from '$lib/components/card-label.svelte';
 
 	let firstName = '';
 	let lastName = '';
@@ -47,9 +47,7 @@
 </script>
 
 <Card>
-	<CardHeader>
-		<CardTitle>Participants Form</CardTitle>
-	</CardHeader>
+	<CardLabel label="Participants Form" />
 
 	<CardBody>
 		{#if $participants.length === 0}
