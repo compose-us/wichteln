@@ -1,15 +1,22 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { page } from '$app/stores';
 
 	import CardLabel from '$lib/components/card-label.svelte';
 	import SecretSanta from '$lib/components/secret-santa.svelte';
+	import { onMount } from 'svelte';
 
 	import { Button, ButtonGroup, Card, CardBody, CardFooter } from 'sveltestrap';
 
-	const pageQuery = $page.query;
-	export let assignee: string = pageQuery.get('assignee');
-	export let secret: string = pageQuery.get('secret');
+	let queryString: URLSearchParams;
+	let assignee: string;
+	let secret: string;
+
+	onMount(() => {
+		queryString = new URLSearchParams(document.location.search.toString());
+		assignee = queryString.get('assignee');
+		secret = queryString.get('secret');
+	});
+
 	let reveal = false;
 </script>
 

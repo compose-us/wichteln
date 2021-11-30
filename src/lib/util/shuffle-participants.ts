@@ -2,7 +2,6 @@ import type { Participant } from '../stores/participants-store';
 
 export const randomizeParticipants = (participants: Participant[]): Participant[] => {
 	const _participants = [...participants];
-	// let invalidCount = [];
 
 	// Fisher–Yates Shuffle
 	// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm

@@ -1,15 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import {
-		Alert,
-		Badge,
-		Button,
-		Card,
-		CardBody,
-		CardFooter,
-		ListGroup,
-		ListGroupItem
-	} from 'sveltestrap';
+	import { Alert, Card, CardBody, CardFooter, ListGroup, ListGroupItem } from 'sveltestrap';
 	import { randomizeParticipants } from '$lib/util/shuffle-participants';
 	import { Participant, participants } from '$lib/stores/participants-store';
 	import { validateShuffle } from '$lib/util/validate-shuffle';
