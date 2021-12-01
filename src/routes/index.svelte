@@ -12,25 +12,24 @@
 	<div class="content">
 		<p>
 			<img src="/SantaClaus.svg" alt="Santa Claus" />
-			Get started by entering the names of your participants.
+			Trage hier die Teilnehmernamen ein.
 			<br /><br />
-			Make sure you spell their names correctly. If you need to make a correction. Just delete the entry
-			and add it again.
+			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst, dann lösche Deinen Eintrag und schreibe den Namen neu.
 			<br /><br />
-			When you are ready, click on the "shuffle" button to render a list of links.
+			Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			<br /><br />
-			Click on each name, one by one, to copy the link that you should send the corresponding participant.
+			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
 			<br /><br />
 			As you copy each link the list item will turn green. So you will not loose your place.
+			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz nicht verlierst.
 			<br /><br />
-			Just becareful to not refresh the page. You will lose your work and will have to start all over
-			again.
+			Aufgepasst! Aktualisiere nicht die Seite unterm Arbeiten, denn sonst sind Deine Eingaben weg und Du musst von vorne beginnen. Das liegt daran, dass wir keine Daten speichern.
 			<br /><br />
-			We hope you have fun with your Wichteln party.
+			Wir hoffen, dass Ihr viel Sapß beim Wichteln habt!
 		</p>
 	</div>
 	<p class="lead">
-		<Button block size="lg" color="success" href="/participants-form">Let's Begin</Button>
+		<Button block size="lg" color="success" href="/participants-form">Los geht's</Button>
 	</p>
 </Jumbotron>
 
