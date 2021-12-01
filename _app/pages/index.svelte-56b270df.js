@@ -6,7 +6,7 @@ import{S as re,i as ae,s as le,M as ue,j as Y,m as Z,o as ee,x as te,u as ne,v a
 			2. Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann l\xF6sche Deinen Eintrag und schreibe den Namen neu.
 			`),z=a("br"),A=a("br"),j=m(`
-			3. Wenn Du fertig bist, dann klicke auf den "Shuffle" - Button, um eine Link-Liste erstellen zu lassen.
+			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"-Button, um eine Link-Liste erstellen zu lassen.
 			`),P=a("br"),I=a("br"),K=m(`
 			4. Klicke nacheinander auf jeden Namen, um den Link automatisch zu kopieren. Du kannst ihn dann in eine Email oder Slack etc. kopieren und an den passenden Teilnehmer verschicken.
 			Du kannst auch ein neues Tab \xF6ffnen und den Link dort hinein kopieren. Probier es aus und teste, ob es funktioniert hat.
@@ -24,7 +24,7 @@ import{S as re,i as ae,s as le,M as ue,j as Y,m as Z,o as ee,x as te,u as ne,v a
 			2. Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann l\xF6sche Deinen Eintrag und schreibe den Namen neu.
 			`),z=l(i,"BR",{}),A=l(i,"BR",{}),j=f(i,`
-			3. Wenn Du fertig bist, dann klicke auf den "Shuffle" - Button, um eine Link-Liste erstellen zu lassen.
+			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"-Button, um eine Link-Liste erstellen zu lassen.
 			`),P=l(i,"BR",{}),I=l(i,"BR",{}),K=f(i,`
 			4. Klicke nacheinander auf jeden Namen, um den Link automatisch zu kopieren. Du kannst ihn dann in eine Email oder Slack etc. kopieren und an den passenden Teilnehmer verschicken.
 			Du kannst auch ein neues Tab \xF6ffnen und den Link dort hinein kopieren. Probier es aus und teste, ob es funktioniert hat.
