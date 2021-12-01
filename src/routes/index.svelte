@@ -21,7 +21,8 @@
 			<br /><br />
 			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			<br /><br />
-			4. Klicke nacheinander auf jeden Namen, um den Link an den passenden Teilnehmer zu verschicken.
+			4. Klicke nacheinander auf jeden Namen, um den Link automatisch zu kopieren. Du kannst ihn dann in eine Email kopieren und an den passenden Teilnehmer verschicken.
+			Du kannst auch ein neues Tab öffnen und den Link dort hinein kopieren. Probier es aus und teste, ob es funktioniert hat.
 			<br /><br />
 			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz
 			nicht verlierst.
