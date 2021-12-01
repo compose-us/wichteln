@@ -14,15 +14,18 @@
 			<img src="/SantaClaus.svg" alt="Santa Claus" />
 			Trage hier die Teilnehmernamen ein.
 			<br /><br />
-			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst, dann lösche Deinen Eintrag und schreibe den Namen neu.
+			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
+			dann lösche Deinen Eintrag und schreibe den Namen neu.
 			<br /><br />
 			Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			<br /><br />
 			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
 			<br /><br />
-			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz nicht verlierst.
+			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz
+			nicht verlierst.
 			<br /><br />
-			Aufgepasst! Aktualisiere nicht die Seite unterm Arbeiten, denn sonst sind Deine Eingaben weg und Du musst von vorne beginnen. Das liegt daran, dass wir keine Daten speichern.
+			Aufgepasst! Aktualisiere nicht die Seite unterm Arbeiten, denn sonst sind Deine Eingaben weg und
+			Du musst von vorne beginnen. Das liegt daran, dass wir keine Daten speichern.
 			<br /><br />
 			Wir hoffen, dass Ihr viel Spaß beim Wichteln habt!
 		</p>
