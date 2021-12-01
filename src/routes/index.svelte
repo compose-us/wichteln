@@ -14,14 +14,14 @@
 			<img src="/SantaClaus.svg" alt="Santa Claus" />
 			Kleine Anleitung:
 			<br /><br />
-			Trage als erstes die Teilnehmernamen ein.
+			1. Trage als erstes die Teilnehmernamen ein.
 			<br /><br />
-			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
+			2. Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann lösche Deinen Eintrag und schreibe den Namen neu.
 			<br /><br />
-			Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
+			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			<br /><br />
-			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
+			4. Klicke nacheinander auf jeden Namen, um den Link an den passenden Teilnehmer zu verschicken.
 			<br /><br />
 			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz
 			nicht verlierst.
