@@ -7,7 +7,13 @@
 		<Col>
 			<div class="root">
 				developed by{' '}
-				<a href="https://compose.us" rel="noreferrer noopener" target="_blank"> compose.us </a>
+				<a href="https://compose.us" rel="noreferrer noopener" target="_blank">compose.us</a>
+				{' | '}
+				<a
+					href="https://www.compose.us/post/digitales-weihnachtsgeschenk-2021"
+					rel="noreferrer noopener"
+					target="_blank">Blogartikel</a
+				>
 			</div>
 		</Col>
 	</Row>
