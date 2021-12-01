@@ -47,12 +47,12 @@
 </script>
 
 <Card>
-	<CardLabel label="Participants Form" />
+	<CardLabel label="Teilnehmer Formular" />
 
 	<CardBody>
 		{#if $participants.length === 0}
 			<div class="loader">
-				<Button color="success" on:click={loadDemoParticipants}>Load Demo Participants</Button>
+				<Button color="success" on:click={loadDemoParticipants}>Lade Beispielteilnehmer</Button>
 			</div>
 		{:else}
 			<ParticipantList list={$participants} editable={true} />
@@ -61,9 +61,9 @@
 
 		<Form on:submit={submitHandler}>
 			<FormGroup>
-				<CardTitle>Add Participant</CardTitle>
+				<CardTitle>Teilnehmer hinzufügen</CardTitle>
 				<Label>
-					First Name
+					Vorname
 					<Input
 						type="text"
 						name="firstName"
@@ -91,7 +91,7 @@
 					/>
 				</Label>
 				<Label>
-					Last Name
+					Nachname
 					<Input
 						type="text"
 						name="lastName"
@@ -113,7 +113,7 @@
 						}}
 					/>
 				</Label>
-				<Button type="submit" color="success" disabled={submitDisabled}>Submit</Button>
+				<Button type="submit" color="success" disabled={submitDisabled}>Eintragen</Button>
 			</FormGroup>
 		</Form>
 	</CardBody>
