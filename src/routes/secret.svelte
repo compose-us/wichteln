@@ -21,21 +21,21 @@
 </script>
 
 <Card>
-	<CardLabel label="Wichteln Assignment" />
+	<CardLabel label="Wichtel-Partner" />
 
 	<CardBody>
 		{#if assignee && secret}
 			<div class="verification">
 				{#if reveal}
-					<h2>{assignee}, your secret santa assignment is:</h2>
+					<h2>{assignee}, Dein Wichtel-Partner:</h2>
 				{:else}
-					<h2>Are you really: {assignee}?</h2>
+					<h2>Bist Du wirklich: {assignee}?</h2>
 				{/if}
 
 				<SecretSanta {reveal} {secret} />
 			</div>
 		{:else}
-			<p>invalid url</p>
+			<p>ungültige url</p>
 		{/if}
 	</CardBody>
 
@@ -43,8 +43,8 @@
 		<div class="verification">
 			{#if !reveal}
 				<ButtonGroup>
-					<Button size="lg" color="success" on:click={() => (reveal = true)}>Yes</Button>
-					<Button size="lg" color="danger" on:click={() => goto('/')}>No</Button>
+					<Button size="lg" color="success" on:click={() => (reveal = true)}>Ja</Button>
+					<Button size="lg" color="danger" on:click={() => goto('/')}>Nein</Button>
 				</ButtonGroup>
 			{/if}
 		</div>
