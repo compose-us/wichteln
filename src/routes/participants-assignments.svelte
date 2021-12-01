@@ -49,7 +49,7 @@
 
 {#if pageReady}
 	<Card>
-		<CardLabel label="Participants Assignments" backBtn={true} />
+		<CardLabel label="Teilnehmer Links" backBtn={true} />
 
 		<CardBody>
 			<div class="container">
@@ -75,7 +75,7 @@
 {/if}
 <div class="alert">
 	<div class="alert-content">
-		<Alert isOpen={showAlert} fade={true}>Copied!</Alert>
+		<Alert isOpen={showAlert} fade={true}>Kopiert!</Alert>
 	</div>
 </div>
 
