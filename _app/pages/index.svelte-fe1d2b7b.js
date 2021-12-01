@@ -1,14 +1,14 @@
 import{S as ie,i as ae,s as le,M as ue,j as Y,m as Z,o as ee,x as te,u as ne,v as se,N as ce,O as oe,P as me,e as a,t as d,k as Q,c as l,a as L,g as f,d as m,n as V,b as k,Q as de,f as p,F as n}from"../chunks/vendor-52cac395.js";import{p as re}from"../chunks/participants-store-535378ac.js";function fe(h){let s;return{c(){s=d("Los geht's")},l(u){s=f(u,"Los geht's")},m(u,i){p(u,s,i)},d(u){u&&m(s)}}}function be(h){let s,u,i,o,g,_,t,$,U,S,W,N,w,E,x,z,A,T,j,I,K,y,C,P,H,q,M,F,G,J,O,B,v,b,R;return b=new me({props:{block:!0,size:"lg",color:"success",href:"/participants-form",$$slots:{default:[fe]},$$scope:{ctx:h}}}),{c(){s=a("h1"),u=d("WICHTELN (Secret Santa)"),i=Q(),o=a("hr"),g=Q(),_=a("div"),t=a("p"),$=a("img"),S=d(`
 			Kleine Anleitung:
 			`),W=a("br"),N=a("br"),w=d(`
-			Trage als erstes die Teilnehmernamen ein.
+			1. Trage als erstes die Teilnehmernamen ein.
 			`),E=a("br"),x=a("br"),z=d(`
-			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
+			2. Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann l\xF6sche Deinen Eintrag und schreibe den Namen neu.
 			`),A=a("br"),T=a("br"),j=d(`
-			Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
+			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			`),I=a("br"),K=a("br"),y=d(`
-			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
+			4. Klicke nacheinander auf jeden Namen, um den Link an den passenden Teilnehmer zu verschicken.
 			`),C=a("br"),P=a("br"),H=d(`
 			Wenn Du einen Link kopiert hast, wird dieser gr\xFCn in der Liste angzeigt, so dass Du Deinen Platz
 			nicht verlierst.
@@ -19,14 +19,14 @@ import{S as ie,i as ae,s as le,M as ue,j as Y,m as Z,o as ee,x as te,u as ne,v a
 			Wir hoffen, dass Ihr viel Spa\xDF beim Wichteln habt!`),B=Q(),v=a("p"),Y(b.$$.fragment),this.h()},l(e){s=l(e,"H1",{class:!0});var c=L(s);u=f(c,"WICHTELN (Secret Santa)"),c.forEach(m),i=V(e),o=l(e,"HR",{class:!0}),g=V(e),_=l(e,"DIV",{class:!0});var D=L(_);t=l(D,"P",{});var r=L(t);$=l(r,"IMG",{src:!0,alt:!0,class:!0}),S=f(r,`
 			Kleine Anleitung:
 			`),W=l(r,"BR",{}),N=l(r,"BR",{}),w=f(r,`
-			Trage als erstes die Teilnehmernamen ein.
+			1. Trage als erstes die Teilnehmernamen ein.
 			`),E=l(r,"BR",{}),x=l(r,"BR",{}),z=f(r,`
-			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
+			2. Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann l\xF6sche Deinen Eintrag und schreibe den Namen neu.
 			`),A=l(r,"BR",{}),T=l(r,"BR",{}),j=f(r,`
-			Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
+			3. Wenn Du fertig bist, dann klicke auf den "Shuffle"- Button, um eine Link-Liste erstellen zu lassen.
 			`),I=l(r,"BR",{}),K=l(r,"BR",{}),y=f(r,`
-			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
+			4. Klicke nacheinander auf jeden Namen, um den Link an den passenden Teilnehmer zu verschicken.
 			`),C=l(r,"BR",{}),P=l(r,"BR",{}),H=f(r,`
 			Wenn Du einen Link kopiert hast, wird dieser gr\xFCn in der Liste angzeigt, so dass Du Deinen Platz
 			nicht verlierst.
