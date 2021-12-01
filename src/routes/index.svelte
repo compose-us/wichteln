@@ -20,7 +20,6 @@
 			<br /><br />
 			Klicke auf jeden Namen, einer nach dem anderen, um den Link an den passenden Teilnehmer zu verschicken.
 			<br /><br />
-			As you copy each link the list item will turn green. So you will not loose your place.
 			Wenn Du einen Link kopiert hast, wird dieser grün in der Liste angzeigt, so dass Du Deinen Platz nicht verlierst.
 			<br /><br />
 			Aufgepasst! Aktualisiere nicht die Seite unterm Arbeiten, denn sonst sind Deine Eingaben weg und Du musst von vorne beginnen. Das liegt daran, dass wir keine Daten speichern.
