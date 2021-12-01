@@ -9,11 +9,11 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-1b46d6df.js">
+		<link rel="modulepreload" href="/_app/start-bf39e22e.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-52cac395.js">
 		<link rel="modulepreload" href="/_app/chunks/singletons-12a22614.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-b4a754fb.js">
-		<link rel="modulepreload" href="/_app/pages/participants-form.svelte-4658138e.js">
+		<link rel="modulepreload" href="/_app/pages/participants-form.svelte-0ed051f9.js">
 		<link rel="modulepreload" href="/_app/chunks/participants-store-535378ac.js">
 		<link rel="modulepreload" href="/_app/chunks/navigation-51f4a605.js">
 		<link rel="modulepreload" href="/_app/chunks/card-label-8e38f8e3.js">
@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="/_app/assets/card-label-314458e2.css">
 
 		<script type="module">
-			import { start } from "/_app/start-1b46d6df.js";
+			import { start } from "/_app/start-bf39e22e.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -38,7 +38,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-b4a754fb.js"),
-						import("/_app/pages/participants-form.svelte-4658138e.js")
+						import("/_app/pages/participants-form.svelte-0ed051f9.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -59,7 +59,7 @@
 			<div class="card" style=""><div class="card-header"><div class="back-btn svelte-4tv59a"><a class="btn btn-danger" href="/" style="">Home</a></div>
 	<h5 class="card-title">Teilnehmer Formular</h5></div>
 
-	<div class="card-body"><div class="loader svelte-12e0xx7"><button class="btn btn-success" value="" style="">Lade Beispielteilnehmer</button></div>
+	<div class="card-body"><div class="loader svelte-12e0xx7"><button data-cy="demo-load-btn" class="btn btn-success" value="" style="">Lade Beispielteilnehmer</button></div>
 		<hr>
 
 		<form class=""><div class="mb-3"><h5 class="card-title">Teilnehmer hinzufügen</h5>
@@ -69,9 +69,9 @@
 				<label class="form-label">Nachname
 					<input class="form-control" type="text" name="lastName" placeholder="" value="">
 </label>
-				<button type="submit" class="btn btn-success" disabled value="" style="">Eintragen</button></div></form></div>
+				<button data-cy="add-participant-btn" type="submit" class="btn btn-success" disabled value="" style="">Eintragen</button></div></form></div>
 
-	<div class="card-footer"><button class="btn btn-success d-block w-100" disabled value="" style="">Shuffle</button></div></div></div></div></div>
+	<div class="card-footer"><button data-cy="shuffle-btn" class="btn btn-success d-block w-100" disabled value="" style="">Shuffle</button></div></div></div></div></div>
 <div class="container"><div class="row"><div class="col"><div class="root svelte-1owcxiy">developed by 
 				<a href="https://compose.us" rel="noreferrer noopener" target="_blank">compose.us</a>
 				 | 
