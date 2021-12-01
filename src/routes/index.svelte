@@ -12,7 +12,7 @@
 	<div class="content">
 		<p>
 			<img src="/SantaClaus.svg" alt="Santa Claus" />
-			Anleitung
+			Kleine Anleitung:
 			<br /><br />
 			Trage als erstes die Teilnehmernamen ein.
 			<br /><br />
