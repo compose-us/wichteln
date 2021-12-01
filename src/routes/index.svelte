@@ -12,7 +12,9 @@
 	<div class="content">
 		<p>
 			<img src="/SantaClaus.svg" alt="Santa Claus" />
-			Trage hier die Teilnehmernamen ein.
+			Anleitung
+			<br /><br />
+			Trage als erstes die Teilnehmernamen ein.
 			<br /><br />
 			Kontrolliere, ob Du die Namen richtig geschrieben hast. Wenn Du einen Namen korrigieren willst,
 			dann lösche Deinen Eintrag und schreibe den Namen neu.
