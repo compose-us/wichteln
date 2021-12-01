@@ -18,7 +18,7 @@
 		<ListGroupItem>
 			{`${item.firstName} ${item.lastName}`}
 			<span class="action">
-				<Button on:click={() => removeParticipant(i)}
+				<Button data-cy="remove-participant-btn" on:click={() => removeParticipant(i)}
 					>{#if editable}
 						<Icon name="trash" />
 					{/if}

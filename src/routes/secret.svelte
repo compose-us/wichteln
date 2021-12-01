@@ -43,7 +43,12 @@
 		<div class="verification">
 			{#if !reveal}
 				<ButtonGroup>
-					<Button size="lg" color="success" on:click={() => (reveal = true)}>Ja</Button>
+					<Button
+						data-cy="verification-btn"
+						size="lg"
+						color="success"
+						on:click={() => (reveal = true)}>Ja</Button
+					>
 					<Button size="lg" color="danger" on:click={() => goto('/')}>Nein</Button>
 				</ButtonGroup>
 			{/if}

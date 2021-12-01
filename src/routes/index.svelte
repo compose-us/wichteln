@@ -31,7 +31,9 @@
 		</p>
 	</div>
 	<p class="lead">
-		<Button block size="lg" color="success" href="/participants-form">Los geht's</Button>
+		<Button data-cy="start-btn" block size="lg" color="success" href="/participants-form"
+			>Los geht's</Button
+		>
 	</p>
 </Jumbotron>
 

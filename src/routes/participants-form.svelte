@@ -52,7 +52,9 @@
 	<CardBody>
 		{#if $participants.length === 0}
 			<div class="loader">
-				<Button color="success" on:click={loadDemoParticipants}>Lade Beispielteilnehmer</Button>
+				<Button data-cy="demo-load-btn" color="success" on:click={loadDemoParticipants}
+					>Lade Beispielteilnehmer</Button
+				>
 			</div>
 		{:else}
 			<ParticipantList list={$participants} editable={true} />
@@ -86,7 +88,6 @@
 								lastNameRef.focus();
 							}
 						}}
-						on:change={(e) => console.log(e)}
 						autofocus
 					/>
 				</Label>
@@ -113,13 +114,19 @@
 						}}
 					/>
 				</Label>
-				<Button type="submit" color="success" disabled={submitDisabled}>Eintragen</Button>
+				<Button
+					data-cy="add-participant-btn"
+					type="submit"
+					color="success"
+					disabled={submitDisabled}>Eintragen</Button
+				>
 			</FormGroup>
 		</Form>
 	</CardBody>
 
 	<CardFooter>
 		<Button
+			data-cy="shuffle-btn"
 			color="success"
 			on:click={() => goto('/participants-assignments')}
 			block
