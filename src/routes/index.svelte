@@ -24,7 +24,7 @@
 			<br /><br />
 			Aufgepasst! Aktualisiere nicht die Seite unterm Arbeiten, denn sonst sind Deine Eingaben weg und Du musst von vorne beginnen. Das liegt daran, dass wir keine Daten speichern.
 			<br /><br />
-			Wir hoffen, dass Ihr viel Sapß beim Wichteln habt!
+			Wir hoffen, dass Ihr viel Spaß beim Wichteln habt!
 		</p>
 	</div>
 	<p class="lead">
