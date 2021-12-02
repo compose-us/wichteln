@@ -1,4 +1,4 @@
-[![Deploy app and storybook to GitHub pages](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml)
+[![Deploy app to GitHub pages](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml)
 
 [![Run Cypress Tests](https://github.com/compose-us/wichteln/actions/workflows/cypress-tests.yml/badge.svg)](https://github.com/compose-us/wichteln/actions/workflows/cypress-tests.yml)
 
