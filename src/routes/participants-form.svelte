@@ -130,7 +130,7 @@
 			color="success"
 			on:click={() => goto('/participants-assignments')}
 			block
-			disabled={$participants.length === 0}>Shuffle</Button
+			disabled={$participants.length < 2}>Shuffle</Button
 		>
 	</CardFooter>
 </Card>
