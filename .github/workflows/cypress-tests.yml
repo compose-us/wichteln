@@ -16,3 +16,5 @@ jobs:
         with:
           start: npm run dev --prefix ../
           working-directory: e2e
+        env:
+          CYPRESS_baseUrl: http://localhost:3000
