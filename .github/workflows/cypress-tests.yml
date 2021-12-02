@@ -14,7 +14,7 @@ jobs:
 
       - uses: cypress-io/github-action@v2
         with:
-          start: npm run dev --prefix ../
-          working-directory: e2e
+          start: npm run dev
+          command: npm run test:cypress:integratio
         env:
           CYPRESS_baseUrl: http://localhost:3000
