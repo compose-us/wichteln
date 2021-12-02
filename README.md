@@ -1,38 +1,18 @@
-# create-svelte
+[![Deploy app and storybook to GitHub pages](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/compose-us/wichteln/actions/workflows/publish-docs.yml)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+[![Run Cypress Tests](https://github.com/compose-us/wichteln/actions/workflows/cypress-tests.yml/badge.svg)](https://github.com/compose-us/wichteln/actions/workflows/cypress-tests.yml)
 
-## Creating a project
+# WICHTELN (Secret Santa)
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+This year's digital Christmas present from us. We would like to say thank you to our customers, supporters and also to the competition! We sincerely wish you relaxing days and a happy new year!
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone the repo
 
-```bash
-npm run dev
+Run the app `npm run dev`
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Test with cypress `npm run test:cypress`
 
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+## Blog article
+Read more about the project here: [digitales-weihnachtsgeschenk-2021](https://www.compose.us/post/digitales-weihnachtsgeschenk-2021)
