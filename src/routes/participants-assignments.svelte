@@ -5,7 +5,7 @@
 	import { Participant, participants } from '$lib/stores/participants-store';
 	import { validateShuffle } from '$lib/util/validate-shuffle';
 	import CardLabel from '$lib/components/card-label.svelte';
-	import { createLink } from '$lib/util/create-link'
+	import { createLink } from '$lib/util/create-link';
 
 	let pageReady = false;
 	let showAlert = false;
@@ -33,15 +33,16 @@
 	};
 
 	const copyLink = (index: number, assignment: Participant) => {
-		const participant = $participants[index];
-		const assignee = `${participant.firstName} ${participant.lastName}`;
-		const secret = btoa(`${assignment.firstName} ${assignment.lastName}`);
-		createLink(document.location.origin, {assignee, secret})
+		const link = createLink(document.location.origin, {
+			participant: $participants[index],
+			assignment
+		});
+		navigator.clipboard.writeText(link);
 		showAlert = true;
 		$participants[index].copied = true;
 		setTimeout(() => {
-			showAlert = false
-		}, 1000)
+			showAlert = false;
+		}, 1000);
 	};
 
 	validateList();
