@@ -5,6 +5,7 @@
 	import { Participant, participants } from '$lib/stores/participants-store';
 	import { validateShuffle } from '$lib/util/validate-shuffle';
 	import CardLabel from '$lib/components/card-label.svelte';
+	import { createLink } from '$lib/util/create-link'
 
 	let pageReady = false;
 	let showAlert = false;
@@ -35,13 +36,12 @@
 		const participant = $participants[index];
 		const assignee = `${participant.firstName} ${participant.lastName}`;
 		const secret = btoa(`${assignment.firstName} ${assignment.lastName}`);
-		const params = new URLSearchParams({ assignee, secret }).toString();
-		navigator.clipboard.writeText(`${document.location.origin}/secret/?${params}`);
+		createLink(document.location.origin, {assignee, secret})
 		showAlert = true;
 		$participants[index].copied = true;
 		setTimeout(() => {
-			showAlert = false;
-		}, 1000);
+			showAlert = false
+		}, 1000)
 	};
 
 	validateList();
