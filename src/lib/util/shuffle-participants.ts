@@ -10,7 +10,7 @@ export const randomizeParticipants = (participants: Participant[]): Participant[
 		const temp = _participants[randomIndex];
 
 		_participants[randomIndex] = _participants[i];
-		_participants[i] = temp;
+		_participants[i] = temp;	
 	}
 
 	return _participants;
