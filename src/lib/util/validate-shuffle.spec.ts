@@ -1,7 +1,7 @@
 import { validateShuffle } from "./validate-shuffle";
 import { demoParticipants } from '../demo-participants'
 
-describe('check that func return what we expected', () => {
+describe('check that validateShuffle func return what we expected', () => {
     it('return true if lists does not match', () => {
         const shuffledList = [...demoParticipants].sort((a,b) => {
             const nameA = a.firstName;

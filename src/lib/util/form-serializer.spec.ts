@@ -1,6 +1,6 @@
 import { formSerializer } from "./form-serializer";
 
-describe('check if func return correct values', () => {
+describe('check that formSerializer function return correct values', () => {
     const inputValue = {
         elements: [
             {
