@@ -16,10 +16,10 @@
 import './commands';
 
 export const CYPRESS_CONFIG = {
-  retries: {
-    runMode: 2,
-    openMode: 1,
-  },
+	retries: {
+		runMode: 2,
+		openMode: 1
+	}
 };
 
 export const APP_URL = '/';

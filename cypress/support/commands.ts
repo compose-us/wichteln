@@ -9,18 +9,18 @@
 // ***********************************************
 
 declare namespace Cypress {
-  interface Chainable {
-    getByCy(value: string): Chainable<Element>;
-    addParticipent(firstName: string, lastName: string): Chainable<Element>;
-  }
+	interface Chainable {
+		getByCy(value: string): Chainable<Element>;
+		addParticipent(firstName: string, lastName: string): Chainable<Element>;
+	}
 }
 
 Cypress.Commands.add('getByCy', (selector, ...args) => {
-  return cy.get(`[data-cy=${selector}]`, ...args);
+	return cy.get(`[data-cy=${selector}]`, ...args);
 });
 
 Cypress.Commands.add('addParticipent', (firstName, lastName) => {
-  cy.get('input[name=firstName]').should('exist').type(firstName);
-  cy.get('input[name=lastName]').should('exist').type(lastName);
-  cy.getByCy('add-participant-btn').should('exist').click();
+	cy.get('input[name=firstName]').should('exist').type(firstName);
+	cy.get('input[name=lastName]').should('exist').type(lastName);
+	cy.getByCy('add-participant-btn').should('exist').click();
 });
