@@ -28,9 +28,9 @@
 
 	$: submitDisabled = firstNameValue === '' && lastNameValue === '';
 
-	const submitHandler = (e) => {
+	const submitHandler: svelte.JSX.EventHandler<SubmitEvent> = (e) => {
 		e.preventDefault();
-		const formData = formSerializer(e.target);
+		const formData = formSerializer(e.currentTarget as HTMLFormElement);
 		if (formData.firstName && formData.lastName) {
 			$participants = [...$participants, formData as Participant];
 			firstName = '';

@@ -15,4 +15,5 @@ Run the app `npm run dev`
 Test with cypress `npm run test:cypress`
 
 ## Blog article
+
 Read more about the project here: [digitales-weihnachtsgeschenk-2021](https://www.compose.us/post/digitales-weihnachtsgeschenk-2021)
