@@ -1,0 +1,12 @@
+version: "3"
+
+services: 
+  wichteln-webapp:
+    image: node:16
+    container_name: wichteln-webapp
+    working_dir: /app
+    ports:
+      - "0.0.0.0:3000:3000"
+    volumes:
+    - ./:/app
+  
